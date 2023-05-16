@@ -1,0 +1,173 @@
+@media only screen and (max-device-width: 480px) {
+
+    
+
+    .menu-nav{
+        height: 90vh;
+        background-image: url('https://cnbl-cdn.bamgrid.com/assets/5ac8f20d599884834414c45dd82f97627eebb4b25dea95e753454360f534c5ee/original');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .exclu-disney{
+        position: relative;
+        margin: 0 auto 0 auto;
+        width: 90%;
+        height: 35vh;
+        background-image: url('https://cnbl-cdn.bamgrid.com/assets/e67607d1a2169b84b368244de674ecb7fc4bb3de2b7216b91a2653ef138a6f8b/original');
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* padding-bottom: 175px;
+        background-position-y: 70%; */
+    }
+
+    .watch-bg {
+        height: 30vh;
+        background-image: url('https://cnbl-cdn.bamgrid.com/assets/82424747ab20c2ec4069a1f82e20c9b9869b15de019de6f65738982bf5f98925/original');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .menu-nav .acueille {
+        margin-top: 10%;
+    }
+
+    .acueille{
+        margin: 0%;
+    }
+
+    .contenaire1 {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .pre-fixed {
+        padding: 10px 26px 0 0;
+    }
+
+    #login-button {
+
+        padding: 10px 14px 10px 14px;
+    
+        font-size: 12px;
+
+    }
+
+    .img-logo-disney {
+        display: block;
+        margin: 150px auto 0 auto;
+        width: 130px;
+        height: 70.75px;
+    }
+
+    .titre1 {
+        font-size: 24px;
+        padding: 0 15px 0 15px;
+    }
+    
+    .description {
+        font-size: 16px;
+        padding: 0 15px 0 15px;
+    }
+
+
+    #recherche-id{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    #email {
+        border-radius: 7.5px;
+        width: 90%;
+    }
+    
+    #continue-button {
+        margin-top: 10px;
+        border-radius: 7.5px;
+        width: 92%;
+    }
+
+
+    .arrow-space {
+        padding-top: 60px;
+    }
+
+    .fleche-bas {
+        width: 15px;
+        height: 15px;
+        margin: 0 auto 0 auto;
+    
+    }
+
+
+
+
+    #exclu {
+        position: relative;
+        padding-top: 0px;
+    }
+
+  
+
+    .contenu-site {
+        padding: 50px 0 50px 0;
+    }
+
+    .liste-contenu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenu-objet {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    
+    .contenu-objet img {
+        width: 70%;
+    }
+
+    .zone-05 {
+        padding: 75px 25px 75px 25px;
+    }
+
+    .zone-05-bloc p {
+        font-size: 18px;
+    }
+
+    .zone-05-bloc span {
+        font-size: 16px;
+    }
+
+    .appareil-compatible-contenu {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .appareils  {
+        text-align: center;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+    .appareil-compatible img {
+        padding-top: 50px;
+        width: 75%;
+    }
+
+
+
+
+    footer li {
+
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+
+}

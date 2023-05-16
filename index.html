@@ -1,0 +1,334 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/css-ordi.css">
+		<link rel="stylesheet" href="./css/css-tablette.css">
+		<link rel="stylesheet" href="./css/css.smartphone.css">
+        <title>Disney+ | Films, séries, productions originales en streaming</title>
+        <link rel="shortcut icon" href="https://static-assets.bamgrid.com/product/disneyplus/favicons/safari-pinned-tab.f78e1debd6a0496471c542612d2e4bc5.svg" />
+    </head>
+
+    <body>
+
+        <header class="menu-nav"> <!-- En-tête de la navigation -->
+            <nav class="pre-fixed">
+                <button type="submit" id="login-button">S'IDENTIFIER</button> <!-- Bouton pour s'identifier -->
+            </nav>
+            <div class="acueille">
+                <div> 
+                    <img src="https://cnbl-cdn.bamgrid.com/assets/7ecc8bcb60ad77193058d63e321bd21cbac2fc67281dbd9927676ea4a4c83594/original" alt="Disney+" class="img-logo-disney"> <!-- Logo de Disney+ -->
+                </div>
+                <div class="contenaire1">
+                    <p class="titre1">Tout ce que vous imaginez et encore +</p> <!-- Titre principal -->
+                    <form class="e-mail" action="https://www.google.fr" method="get" target="_blank"> <!-- Formulaire pour entrer l'adresse e-mail -->
+                        <div> 
+                            <label class="description" for="id_email">Entrez votre adresse e-mail pour commencer ou réactiver votre <br> abonnement. <br> </label> <!-- Description pour entrer l'adresse e-mail -->
+                            <div id="recherche-id"> 
+                                <input type="email" id="email" placeholder="Adresse e-mail" size="20" required> <!-- Champ pour entrer l'adresse e-mail -->
+                                <button type="submit" id="continue-button">CONTINUER</button> <!-- Bouton pour continuer -->
+                            </div>
+                            <p class="description">Profitez de 12 mois au prix de 10 quand vous souscrivez un abonnement Disney+ annuel. Économies par rapport à un an d'abonnement mensuel.</p> <!-- Description des économies -->
+                        </div>
+                    </form>
+                </div>
+                <div class="arrow-space">
+                    <a href="#arrow">
+                        <div class="fleche-bas"></div> <!-- Flèche bas pour faire défiler vers le bas -->
+                    </a>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <section class="exclu-disneyPlus" id="arrow"> <!-- Section exclusive de Disney+ -->
+                <div class="margin" id="exclu">
+                    <div>
+                        <span class="titre1">Seulement sur Disney+</span> <!-- Titre exclusif -->
+                        <br><br>
+                        <p class="description">Des séries, productions originales et films exclusifs que vous ne trouverez sur aucun autre service de streaming.</p> <!-- Description des contenus exclusifs -->
+                    </div>
+                </div>
+            </section>
+            <section class="watch"> <!-- Section de visionnage -->
+                <div class="watch-texte">
+                    <span class="titre1">Regardez selon vos envies</span> <!-- Titre de la section de visionnage -->
+                    <br><br>
+                    <p class="description">Profitez des plus belles histoires au monde, partout et à tout moment.</p> <!-- Description du visionnage des histoires -->
+                </div>
+                <div class="watch-bg"></div>
+            </section>
+
+
+            <section class="contenu-site"> <!-- Section du contenu du site -->
+                <div class="liste-contenu">
+                    <div class="contenu-objet">
+                        <img src="https://cnbl-cdn.bamgrid.com/assets/f496c4734732c167a1643eaa214dbdd3a9124a04a66c4f78f83435fd80a13534/original" alt="Logo Bobine"> <!-- Logo de la bobine -->
+                        <p class="contenu-titre">Un divertissement sans fin</p> <!-- Titre du contenu -->
+                        <p class="contenu-texte">Découvrez des milliers d'heures de séries, films et productions originales</p> <!-- Description du contenu -->
+                    </div>
+
+                    <div class="contenu-objet">
+                        <img src="https://cnbl-cdn.bamgrid.com/assets/bb4f144134120dc90d8a6023a34450e93d4877ea380bd5e8243f49affa022186/original" alt="Logo appareil"> <!-- Logo de l'appareil -->
+                        <p class="contenu-titre">Disponible sur vos appareils préférés</p> <!-- Titre du contenu -->
+                        <p class="contenu-texte">Utilisez jusqu'à 4 appareils compatibles en simultané.</p> <!-- Description du contenu -->
+                    </div>
+            
+                    <div class="contenu-objet">
+                        <img src="https://cnbl-cdn.bamgrid.com/assets/6876a3855aaa6da0c58b19d95989cec2342f3fe6e079a583456d19539d74bbfb/original" alt="Logo controle Parental"> <!-- Logo de contrôle parental -->
+                        <p class="contenu-titre">Un contrôle parental intuitif</p> <!-- Titre du contenu -->
+                        <p class="contenu-texte">Protégez votre famille avec un contrôle parental simple d'utilisation.</p> <!-- Description du contenu -->
+                    </div>
+                </div>
+            </section>
+
+ 
+            <section class="faq">
+                <div>
+                  <span class="titre-faq">Questions fréquentes</span>
+                  <div class="contenaire">
+                    <!-- Bouton pour la question "Qu'est-ce que Disney+ ?" -->
+                    <button class="contenu" id="bouton">
+                      <span class="titre">Qu'est-ce que Disney+ ?</span>
+                      <div class="icone">
+                        <span class="bar-plus" id="bar-plus">+</span>
+                        <span class="bar-moins" style="display:none;" id="bar-moins">-</span>
+                      </div>
+                    </button>
+                    <!-- Contenu de la réponse à la question "Qu'est-ce que Disney+ ?" -->
+                    <div class="texte" id="texte" style="display: none;">
+                      <ul>
+                        <li>
+                          <p>
+                            Disney+ est la destination des univers Disney, Pixar, Marvel, Star Wars, National Geographic, Star et encore +.
+                            <br>
+                            <br>
+                            Un abonnement à Disney+, c'est tout ce que vous imaginez et encore + :
+                          </p>
+                        </li>
+                        <li>Retrouvez toutes les productions originales ainsi que les films, séries et courts-métrages issus des mondes Disney, Pixar, Marvel, Star Wars, National Geographic, Star* et encore +.</li>
+                        <li>Téléchargez autant de films et séries que vous souhaitez sur jusqu'à 10 appareils.</li>
+                        <li>Accédez à des films et séries en 4K UHD avec Dolby Vision et Dolby Atmos sur les appareils compatibles sans frais supplémentaires.</li>
+                        <li>Utilisez le contrôle parental pour sécuriser l'accès aux contenus Disney+ ainsi que le profil Enfants pour les plus jeunes.</li>
+                        <li>Regardez vos contenus préférés sur 4 appareils en simultané.</li>
+                        <li>Découvrez GroupWatch, qui vous permettra de regarder à distance n'importe quel film ou série avec votre famille et vos proches via l'application Disney+.</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="contenaire">
+                    <!-- Bouton pour la question "Que puis-je regarder sur Disney+ ?" -->
+                    <button class="contenu" id="bouton2">
+                      <span class="titre">Que puis-je regarder sur Disney+ ?</span>
+                      <div class="icone">
+                        <span class="bar-plus" id="bar-plus">+</span>
+                        <span class="bar-moins" style="display:none;" id="bar-moins">-</span>
+                      </div>
+                    </button>
+                    <!-- Contenu de la réponse à la question "Que puis-je regarder sur Disney+ ?" -->
+                    <div class="texte" id="texte2" style="display: none;">
+                            <ul>
+                                <li>Disney+ est la destination des univers Disney, Pixar, Marvel, Star Wars, National Geographic, Star et encore +.</li>
+                                <br>
+                                <li>
+                                    <p>Accédez aux plus beaux classiques et aux plus grandes sagas des studios Disney, de <i>Pinocchio</i> aux <i>Pirates des Caraïbes</i>.</p>
+                                </li>
+                                <li> <p>Découvrez des histoires émouvantes pour tous les âges, créées par les génies des studios Pixar, comme l'incontournable aventure italienne <i>Luca</i>  ou l'entrée dans l'adolescence de Mei Lee avec <i>Alerte rouge</i>.</p></li>
+                                <li> <p>Vivez comme jamais l'histoire en constante évolution de l'Univers Cinématographique Marvel avec des séries exclusives des Studios Marvel comme <i>WandaVision, Falcon et le Soldat de l'Hiver, Loki</i>  ou bien encore <i>Moon Knight.</i> </p></li>
+                                <li><p>Revivez l'épopée de la saga <i>Skywalker</i> ou regardez en streaming les dernières séries live-action Star Wars, comme <i>The Mandalorian</i> ou <i>Obi-Wan Kenobi</i>.</p></li>
+							<li><p>Ouvrez les yeux sur la richesse de notre planète grâce aux intrépides explorateurs de National Geographic et à leurs documentaires passionnants.</p></li>
+							<li><p>Avec Star, retrouvez enfin des séries dont tout le monde parle, comme <i>Dopesick, Les Kardashian, Desperate Housewives, Malcolm, Les Simpson </i> ou l'intégrale de la série <i>Futurama</i>, imaginée par les mêmes créateurs.</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contenaire">
+                        <!-- Bouton pour afficher/masquer le contenu -->
+						<button class="contenu" id="bouton3">
+                            <span class="titre">Quel est le prix de l'abonnement Disney+ ?</span>
+                            <div class="icone">
+								<span class=" bar-plus">+</span>
+								<span class=" bar-moins"style="display:none;">-</span>
+							</div>
+                        </button>
+                        <div class="texte" id="texte3" style="display: none;">  <!-- Contenu associé au bouton -->
+
+                            <ul>
+                                <li>Disney+ est disponible pour 8,99 € par mois. Vous pouvez aussi économiser plus de 15 %* en vous abonnant pour 12 mois au prix de 89,90 €.</li>
+                                <br>
+                                <li>Vous pouvez également offrir un an de Disney+ à un ami ou un membre de votre famille en cliquant <a href="#">ici</a>.</li>
+                                <br>
+                                <li>* Voir conditions d'abonnement. Comparatif entre 12 mois d'abonnement mensuel et l'abonnement annuel.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contenaire">
+						<button class="contenu" id="bouton4">  <!-- Bouton pour afficher/masquer le contenu -->
+                            <span class="titre">Quels appareils et plateformes puis-je utiliser avec Disney+ ?</span>
+							<div class="icone">
+								<span class=" bar-plus">+</span>
+								<span class=" bar-moins"style="display:none;">-</span>
+							</div>
+						</button>
+                        <div class="texte" id="texte4" style="display: none;">  <!-- Contenu associé au bouton -->
+
+                            <ul>
+                                <li>Disney+ est accessible sur mobiles, navigateurs Web, consoles de jeux, décodeurs TV et TV connectées. Cliquez <a href="#">ici</a> pour retrouver la liste complète des appareils compatibles.</li>
+                            </ul>
+                        </div>
+                    </div>
+					<div class="contenaire">
+						<button class="contenu" id="bouton5"><!-- Bouton pour afficher/masquer le contenu -->
+                            <span class="titre">L'abonnement Disney+ comprend-il une durée d'engagement ?</span>
+							<div class="icone">
+								<span class=" bar-plus">+</span>
+								<span class=" bar-moins"style="display:none;">-</span>
+							</div>
+						</button>
+                        <div class="texte" id="texte5" style="display: none;">  <!-- Contenu associé au bouton -->
+
+                            <ol>
+								<li>     1. Identifiez-vous sur www.DisneyPlus.com</li>
+                                <li>     2. Sélectionnez votre profil</li>
+                                <li>     3. Sélectionnez Compte</li>
+                                <li>     4. Sélectionnez votre abonnement</li>
+                                <li>     5. Sélectionnez Résilier l'abonnement</li>
+                                <li>     6. Sélectionnez Continuer pour résilier</li>
+                                <br>
+                                <li>Pour plus d'informations, cliquez <a href="#">ici</a>.</li>
+                            </ol>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </section>
+            <section class="appareil-compatible"> 
+
+                <span class="titre-faq">Accessible sur vos appareils préférés</span>
+
+                <div class="appareil-compatible-contenu">
+
+                    <div class="appareils"> <!-- Télévisions -->
+                        <img src="https://cnbl-cdn.bamgrid.com/assets/00fb59319fa715222100d8a84d11bc7e23a42970b4f413c9e85166d0cfba9346/original" alt="Logo TV">
+                        <p class="contenu-titre">Télévisions</p>
+
+                        <span class="contenu-texte">Amazon Fire TV</span>
+                        <br>
+                        <span class="contenu-texte">Appareils Android TV</span>
+                        <br>
+                        <span class="contenu-texte">Apple TV</span>
+                        <br>
+                        <span class="contenu-texte">Chromecast</span>
+                        <br>
+                        <span class="contenu-texte">TV LG</span>
+                        <br>
+                        <span class="contenu-texte">Roku</span>
+                        <br>
+                        <span class="contenu-texte">Samsung</span>
+                    </div>
+
+                    <div class="appareils"> <!-- Ordinateurs -->
+                        <img src="https://cnbl-cdn.bamgrid.com/assets/00fb59319fa715222100d8a84d11bc7e23a42970b4f413c9e85166d0cfba9346/original" alt="Logo Ordinateur">
+                        <p class="contenu-titre">Ordinateurs</p>
+
+                        <span class="contenu-texte">Chrome OS</span>
+                        <br>
+                        <span class="contenu-texte">MacOS</span>
+                        <br>
+                        <span class="contenu-texte">PC Windows</span>
+                    </div>
+
+                    <div class="appareils"> <!-- Mobiles et tablettes -->
+                        <img src="https://cnbl-cdn.bamgrid.com/assets/66475056e769443ef9a491a48dfa44059c8964890ae9ef7c4f69f322693c59d8/original" alt="Logo Ordinateur">
+                        <p class="contenu-titre">Mobiles et tablettes</p>
+
+                        <span class="contenu-texte">Tablettes Amazon Fire</span>
+                        <br>
+                        <span class="contenu-texte">Mobiles et tablettes Android</span>
+                        <br>
+                        <span class="contenu-texte">iPhone & iPad</span>
+                    </div>
+
+                    <div class="appareils"> <!-- Consoles de jeux -->
+                        <img src="https://cnbl-cdn.bamgrid.com/assets/51b639d2ebe97ee175975c29d42a90b0e043713856db8e5d6d9fb87b2b3a48c0/original" alt="Logo Ordinateur">
+                        <p class="contenu-titre">Consoles de jeux</p>
+
+                        <span class="contenu-texte">PS4</span>
+                        <br>
+                        <span class="contenu-texte">PS5</span>
+                        <br>
+                        <span class="contenu-texte">Xbox One</span>
+                        <br>
+                        <span class="contenu-texte">Xbox Series X</span>
+                        <br>
+                        <span class="contenu-texte">Xbox Series S</span>
+                    </div>
+                </div>
+            </section> 
+		
+		</main>
+        <footer>
+
+            <!-- Logo Disney+ -->
+            <img src="https://cnbl-cdn.bamgrid.com/assets/7ecc8bcb60ad77193058d63e321bd21cbac2fc67281dbd9927676ea4a4c83594/original" alt="Logo Disney+">
+        
+            <div>
+                <ul>    
+                    <!-- Sélection de la langue -->
+                    <select name="language" id="language">
+                        <option value="french">Français</option>
+                        <option value="./index-en.html">English</option> 
+                    </select>
+        
+                    <!-- Liens des conditions générales d'abonnement -->
+                    <li class="liste-footer"><a href="#">Conditions générales d'abonnement</a></li>
+        
+                    <!-- Liens des règles de respect de la vie privée -->
+                    <li class="liste-footer"><a href="#">Règles de Respect de la Vie Privée</a></li>
+        
+                    <!-- Liens des droits de données dans l'UE et au R-U -->
+                    <li class="liste-footer"><a href="#">Droits Données dans l'UE et au R-U</a></li>
+        
+                    <!-- Liens des modalités relatives aux cookies -->
+                    <li class="liste-footer"><a href="#">Modalités relatives aux cookies</a></li>
+                </ul>
+            </div>
+        
+            <div>
+                <ul>
+                    <!-- Liens des publicités ciblées par centres d'intérêt -->
+                    <li class="liste-footer"><a href="#">Publicités ciblées par centres d'intérêt</a></li>
+        
+                    <!-- Liens des appareils compatibles -->
+                    <li class="liste-footer"><a href="#">Appareils compatibles</a></li>
+        
+                    <!-- Liens d'aide -->
+                    <li class="liste-footer"><a href="#">Aide</a></li>
+        
+                    <!-- Lien pour offrir Disney+ -->
+                    <li class="footer-text"><a href="#">Offrez Disney+</a></li>
+        
+                    <!-- Liens À propos de Disney+ -->
+                    <li class="liste-footer"><a href="#">À propos de Disney+</a></li>
+        
+                    <!-- Liens pour gérer les préférences -->
+                    <li class="liste-footer"><a href="#">Gérer vos préférences</a></li>
+                </ul>
+            </div>
+        
+            <!-- Mention sur la variation du contenu et des plateformes selon la zone géographique -->
+            <span class="liste-footer">Le contenu et les plateformes disponibles peuvent varier selon la zone géographique.</span>
+            <br>
+        
+            <!-- Mention des droits d'auteur -->
+            <span class="liste-footer">© 2023 Disney et ses sociétés affiliées. Tous droits réservés.</span>
+        
+        </footer>
+        
+		<script src="./js/script.js"></script>
+    </body>
+
+</html>
