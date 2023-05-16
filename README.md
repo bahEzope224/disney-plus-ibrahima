@@ -18,7 +18,10 @@ Inclusion d'une section de FAQ avec des questions fréquemment posées et leurs 
 Utilisation
 Pour utiliser ce code HTML, vous pouvez le copier dans un fichier avec l'extension .html et l'ouvrir dans un navigateur web. Assurez-vous également de disposer des fichiers CSS mentionnés dans les balises <link> pour obtenir la mise en forme correcte sur différents appareils.
 
-Auteur
+# Auteur
 Ce code a été écrit par un auteur Bah Ibrahima.
 
 Remarque : Ce fichier ReadMe est une description basique du code HTML fourni. Il peut être étendu et amélioré en fonction des besoins spécifiques du projet.
+
+Voici le résultat du code: 
+  https://disneyplus-ibrahima.netlify.app/
