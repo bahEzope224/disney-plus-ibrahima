@@ -16,7 +16,7 @@ Ajout d'un logo Disney+ et d'un formulaire d'inscription par e-mail.
 Mise en place de différentes sections pour mettre en valeur les contenus exclusifs de Disney+, les options de visionnage et les fonctionnalités du service.
 Inclusion d'une section de FAQ avec des questions fréquemment posées et leurs réponses.
 Utilisation
-Pour utiliser ce code HTML, vous pouvez le copier dans un fichier avec l'extension .html et l'ouvrir dans un navigateur web. Assurez-vous également de disposer des fichiers CSS mentionnés dans les balises <link> pour obtenir la mise en forme correcte sur différents appareils.
+Pour utiliser ce code HTML, vous pouvez le copier dans un fichier avec l'extension .html et l'ouvrir dans un navigateur web.
 
 # Auteur
 Ce code a été écrit par Bah Ibrahima.
